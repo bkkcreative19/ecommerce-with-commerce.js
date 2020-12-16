@@ -17,7 +17,7 @@ import useStyles from "./styles";
 //   });
 
 const Products = ({ products, onAddToCart }) => {
-  console.log(products);
+  // console.log(products);
   const classes = useStyles();
   return (
     <main className={classes.content}>
